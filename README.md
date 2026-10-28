@@ -34,3 +34,22 @@ python tracker.py
 2. **View Expense Log:** Displays tabular readouts of all historically committed entries.
 3. **View Finance Summary Report:** Renders analytical distribution breakdowns and graphical progress meters.
 4. **Exit:** Safely closes file operations and logs out.
+
+
+
+---
+
+## 🚨 Automated Local Log Parser & Security Analytics Engine
+
+A serverless, robust data automation pipeline that natively streams, filters, and parses raw server logs to extract security incidents (HTTP 403 Forbidden events) and compiles structural auditing spreadsheets.
+
+### 💡 Key Data Engineering Features
+- **Deterministic Processing Matrix:** Processes files locally on the filesystem, bypassing external network latency and structural server downtime traps.
+- **Log Stream Extraction:** Iterates through unstructured log streams, splitting, cleaning, and tracking target IP strings, resource paths, and usernames.
+- **Automated Spreadsheet Compiling:** Emits cleanly structured audit logs out to a physical CSV reporting matrix.
+
+### 🚀 Execution Instructions
+To execute the log analysis pipeline natively, run:
+```bash
+python scraper.py
+```

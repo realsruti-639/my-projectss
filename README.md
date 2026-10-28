@@ -53,3 +53,23 @@ To execute the log analysis pipeline natively, run:
 ```bash
 python scraper.py
 ```
+
+
+
+
+---
+
+## 💵 Automated Financial Exchange & Currency Valuation Engine
+
+A specialized, serverless data pipeline designed to simulate global currency valuation grids, tracking core conversions relative to the United States Dollar (USD) with dynamic engine tracking timestamps.
+
+### 💡 Key Programming Features
+- **Algorithmic Asset Mapping:** Evaluates data structures linearly using zero-dependency parsing matrices for robust standalone deployment.
+- **Precision Data Grid Formatting:** Formats numeric values to structured strings, handling decimals, padded widths, and table headers.
+- **Filesystem Verification:** Ensures runtime tracking registers directories and executes metrics independently of network down-times.
+
+### 🚀 Execution Instructions
+To initialize the financial dashboard, run:
+```bash
+python dashboard.py
+```
